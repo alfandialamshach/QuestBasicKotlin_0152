@@ -12,6 +12,7 @@ fun nullSafety()  {
     // This is OK
     nullable = null
 
+
     // Check for null in conditions
     if (neverNull == null) {
         println("inferrdNonNull is null")
@@ -22,6 +23,7 @@ fun nullSafety()  {
     //safe call operator
     println(neverNull.length) //18
     println(nullable?.length) //null
+
 
     //notNull doesn't accept null values
     fun strLength(notNull: String): Int {
