@@ -40,7 +40,7 @@ fun ContohSet() {
     println("=== Set ===")
 
     //Set Read-Only
-    val readOnlyAbjad = setOf ("A", "B", "C")
+    val readOnlyAbjad = setOf("A", "B", "C")
     println(readOnlyAbjad)
 
     //Set Mutable
@@ -49,7 +49,7 @@ fun ContohSet() {
 
     //Menambahkan data ke dalam set mutable
     shape.add("Rectangle")
-    println (shape)
+    println(shape)
 
     //Menghapus data dari set mutable
     shape.remove("Circle")
@@ -57,7 +57,8 @@ fun ContohSet() {
 
     //Set Read-Only
     val shapesLocked: Set<String> = shape
-    println (shapesLocked)
+    println(shapesLocked)
+}
 
     // Map adalah kumpulan data yang disusun dalam pasangan key-value
     // Map bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu
@@ -99,4 +100,4 @@ fun ContohSet() {
         ContohSet()
         ContohMap()
 
-    }    }
+    }
