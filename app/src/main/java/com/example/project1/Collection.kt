@@ -80,7 +80,7 @@ fun ContohSet() {
 
         //Menambahkan data ke dalam map Mutable
         shape["Rectangle"] = 4
-          println  (shape)
+          println (shape)
 
         //Menghapus data dari map mutable
         shape.remove ("Circle")
