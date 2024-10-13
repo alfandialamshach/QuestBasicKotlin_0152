@@ -1,6 +1,6 @@
 package com.example.test
 
-fun wuthoutParameter() {
+fun withoutParameter() {
     println("== withoutParameter ==")
     println("hello, World!")
 }
@@ -27,7 +27,7 @@ fun withDefaultParameter(name: String = "indra", age: Int){
     println("Hello, $name! You are $age years old.")
 }
 
-fun withReturn(panjang : Int, lebar : Int) : Int {
+fun withReturn(panjang : Int, lebar : Int) {
     return println(panjang * lebar)
 }
 
